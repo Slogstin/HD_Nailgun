@@ -4,6 +4,8 @@ This Addon adds Nailgun and steel nails to [Hideous Destructor](https://codeberg
 
 Requires [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib).
 
+<img width="1367" height="605" alt="Screenshot_Doom_20260623_042315" src="https://github.com/user-attachments/assets/63120f3f-ab9c-470e-8e71-840a0df3a115" />
+<img width="574" height="608" alt="Screenshot_Doom_20260623_042326" src="https://github.com/user-attachments/assets/b03e41ee-8f6b-40e9-b436-77625f345e32" />
 
 
 
@@ -13,7 +15,7 @@ Matt for [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor).
 
 [tedthepraimortis](https://github.com/tedthepraimortis) for the nail code.
 
-[Cozi](https://github.com/Deadondev) for the Reloader code.
+[Cozi](https://github.com/Deadondev) for the Lead ball Reloader code i used for the nail repair device.
 
 Fallout 4 for a couple sounds
 
