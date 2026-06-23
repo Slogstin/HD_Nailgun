@@ -1,0 +1,99 @@
+brightmap sprite VNLGA0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNLGB0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNLGC0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNLGD0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNLGE0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNLGF0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNLGG0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNLGH0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNLGI0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNLGX0
+{
+   map brightmaps/Nailgun/NGBRIGHT.png
+}
+
+brightmap sprite VNLGY0
+{
+   map brightmaps/Nailgun/NGBRIGHT.png
+}
+
+brightmap sprite VNL2A0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNL2B0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNL2C0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNL2D0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNL2E0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNL2F0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNL2G0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNL2H0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}
+
+brightmap sprite VNL2I0
+{
+   map brightmaps/Nailgun/NailBodyB.png
+}

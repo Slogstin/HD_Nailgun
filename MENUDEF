@@ -1,0 +1,154 @@
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "Virid Inc. Nailgun Options", "VirNailgun_Menu"
+}
+
+AddOptionMenu "HDAddonMenu"
+{
+	Submenu "Virid Inc. Nailgun Options", "VirNailgun_Menu"
+}
+
+OptionValue "SpawnEnable"
+{
+    0,    "Nope"
+    1,    "Yepp"
+}
+
+OptionMenu "SpaghettiMenu"
+{
+	Title "Virid Inc. Nailgun Options"
+	StaticText ""
+	Submenu "Nailgun Options", "SLG_Nailgun_Menu", 0, 1
+	StaticText ""
+	Submenu "Nailgun Mags Options", "SLG_NailgunMags_Menu", 0, 1
+	StaticText ""
+	Submenu "Nail Ammo Options", "SLG_Nails_Menu", 0, 1
+	StaticText ""
+	Submenu "Nail Repair Device Options", "SLG_NailReloader_Menu", 0, 1
+	StaticText ""
+	StaticText ""
+	StaticText ""
+}
+
+OptionMenu "SLG_Nailgun_Menu"
+{
+	Title "Virid Inc. Nailgun Options"
+	
+	StaticText "--- Spawning ---", "DarkGreen"
+	StaticText ""
+	Slider "Spawn Weight (Chaingun Pool)", "SLG_Nailgun_Spawns", 0.0, 50, .01, 2
+	StaticText ""
+	Option "Can Spawn in wild Backpacks?", "virnailgun_allowBackpacks", "SpawnEnable"
+	StaticText ""
+	Option "Persistent Spawns?", "SLG_Nailgun_Persistency", "SpawnEnable"
+	StaticText ""
+	StaticText "--- Merchant Store ---", "DarkGreen"
+	StaticText ""
+	Option "Can be sold by Merchants?", "hdm_enable_Nailgun", "SpawnEnable"
+	StaticText ""
+	Slider "Price", "hdm_nailgun_price", 0.0, 5000, .01, 2
+	StaticText ""
+	StaticText ""
+	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
+	StaticText ""
+	StaticText "Spawn Weight:", "White"
+	StaticText "SLG_Nailgun_Spawns [VALUE]", "Green"
+	StaticText ""
+	StaticText "Merchant Price:", "White"
+	StaticText "hdm_Nailgun_price [VALUE]", "Green"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	
+}
+
+OptionMenu "SLG_NailgunMag_Menu"
+{
+	Title "Virid Inc. Nailgun Magazine Options"
+	
+	StaticText "--- Spawning ---", "DarkGreen"
+	StaticText ""
+	Slider "Spawn Weight (Clipbox Pool)", "SLG_NailgunMag_Spawns", 0.0, 50, .01, 2
+	StaticText ""
+	Option "Can Spawn in wild Backpacks?", "virnailgunmag_allowBackpacks", "SpawnEnable"
+	StaticText ""
+	Option "Persistent Spawns?", "SLG_NailgunMag_Persistency", "SpawnEnable"
+	StaticText ""
+	StaticText "--- Merchant Store ---", "DarkGreen"
+	StaticText ""
+	Option "Can be sold by Merchants?", "hdm_enable_nailgunmag", "SpawnEnable"
+	StaticText ""
+	Slider "Price", "hdm_nailgunmag_price", 0.0, 5000, .01, 2
+	StaticText ""
+	StaticText ""
+	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
+	StaticText ""
+	StaticText "Spawn Weight:", "White"
+	StaticText "SLG_NailgunMag_Spawns [VALUE]", "Green"
+	StaticText ""
+	StaticText "Merchant Price:", "White"
+	StaticText "hdm_nailgunmag_price [VALUE]", "Green"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	
+}
+
+OptionMenu "SLG_Nails_Menu"
+{
+	Title "Steel Nails Options"
+	
+	StaticText "--- Spawning ---", "DarkGreen"
+	StaticText ""
+	Slider "Spawn Weight (CellPack Pool)", "SLG_NailsCell_Spawns", 0.0, 50, .01, 2
+	Slider "Spawn Weight (ShellBox Pool)", "SLG_NailsShell_Spawns", 0.0, 50, .01, 2
+	StaticText ""
+	Option "Can Spawn in wild Backpacks?", "virnails_allowBackpacks", "SpawnEnable"
+	StaticText ""
+	Option "Persistent Spawns?", "SLG_Nails_Persistency", "SpawnEnable"
+	StaticText ""
+	StaticText "--- Merchant Store ---", "DarkGreen"
+	StaticText ""
+	Option "Can be sold by Merchants?", "hdm_enable_Nails", "SpawnEnable"
+	StaticText ""
+	Slider "Price", "hdm_nails_price", 0.0, 5000, .01, 2
+	StaticText ""
+	StaticText ""
+	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
+	StaticText ""
+	StaticText "Spawn Weight:", "White"
+	StaticText "SLG_NailsCell_Spawns [VALUE]", "Green"
+	StaticText "SLG_NailsShell_Spawns [VALUE]", "Green"
+	StaticText ""
+	StaticText "Merchant Price:", "White"
+	StaticText "hdm_Nails_price [VALUE]", "Green"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	
+}
+
+OptionMenu "SLG_NailReloader_Menu"
+{
+	Title "Nail Repair Device Options"
+	
+	StaticText "--- Spawning ---", "DarkGreen"
+	StaticText ""
+	Option "Can Spawn in wild Backpacks?", "virnailreloader_allowBackpacks", "SpawnEnable"
+	StaticText ""
+	StaticText "--- Merchant Store ---", "DarkGreen"
+	StaticText ""
+	Option "Can be sold by Merchants?", "hdm_enable_nailreloader", "SpawnEnable"
+	StaticText ""
+	Slider "Price", "hdm_nailreloader_price", 0.0, 5000, .01, 2
+	StaticText ""
+	StaticText ""
+	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
+	StaticText ""
+	StaticText "Merchant Price:", "White"
+	StaticText "hdm_nailreloader_price [VALUE]", "Green"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	
+}

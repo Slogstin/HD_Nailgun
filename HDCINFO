@@ -1,0 +1,44 @@
+// ----- Spawns -----
+//Nailgun
+addSpawnTableSingleEntry => { "tableName": "ChaingunReplaces", "name": "NailgunDrop", "weight": "#SLG_NailGun_Spawns", "persists": "#SLG_NailGun_Persistency"}
+//Nailgun Mag
+addSpawnTableSingleEntry => { "tableName": "ClipBoxReplaces", "name": "VirNailGunMag", "weight": "#SLG_NailgunMag_Spawns", "persists": "#SLG_NailgunMag_Persistency"}
+//Nail Ammo
+addSpawnTableSingleEntry => { "tableName": "CellPackReplaces", "name": "VirNailBox", "weight": "#SLG_NailsCell_Spawns", "persists": "#SLG_Nails_Persistency"}
+addSpawnTableSingleEntry => { "tableName": "ShellBoxReplaces", "name": "VirNailBox", "weight": "#SLG_NailsShell_Spawns", "persists": "#SLG_Nails_Persistency"}
+
+// ----- Backpack Filters -----
+//Nailgun
+addBPSpawnPoolFilter => { "name": "VirNailgun", "allowed": "#virnailgun_allowBackpacks" }
+//Nailgun Mag
+addBPSpawnPoolFilter => { "name": "VirNailgunMag", "allowed": "#virnailgun_allowBackpacks" }
+//Nail Ammo
+addBPSpawnPoolFilter => { "name": "VirNailammo", "allowed": "#virnails_allowBackpacks" }
+//Nail Reloader
+addBPSpawnPoolFilter => { "name": "NailReloader", "allowed": "#virnailreloader_allowBackpacks" }
+//Bent Nails
+addBPSpawnPoolFilter => { "name": "VirBentNailammo", "allowed": "false" }
+
+// ----- Ammo Associations -----
+
+newAmmo => { "ammoName": "VirNailAmmo" }
+newAmmo => { "ammoName": "VirBentNailAmmo" }
+
+//Nailgun
+addAmmoUser => { "ammoName": "VirNailAmmo", "name": "VirNailgun" }
+//Nail Reloader
+addAmmoUser => { "ammoName": "VirBentNailAmmo", "name": "NailReloader" }
+
+// ----- Ammobox Blacklist -----
+
+addAmmoBoxBlacklist => { "ammoName": "VirBentNailAmmo" }
+
+// ----- Merchant Stores -----
+//Nailgun
+newMerchantStoreItem => { "enabled": "#hdm_enable_nailgun", "type": "weapon", "category": "$MERCH_CAT_NLG", "item": "VirNailgun", "icon": "VNLGX0", "displayName": "$MERCH_TAG_NLG", "basePrice": "#hdm_nailgun_price", "flavorText": "$MERCH_FLAVOR_NLG" }
+//Nailgun Mag
+newMerchantStoreItem => { "enabled": "#hdm_enable_nailgunmag", "type": "mag", "category": "$MERCH_CAT_NLGMAG", "item": "VirNailgunMag", "icon": "VNLGV0", "displayName": "$MERCH_TAG_NLGMAG", "basePrice": "#hdm_nailgunmag_price", "flavorText": "$MERCH_FLAVOR_NLGMAG" }
+//Nail Ammo
+newMerchantStoreItem => { "enabled": "#hdm_enable_nails", "type": "ammo", "category": "$MERCH_CAT_NAILS", "item": "VirNailAmmo",  "amount": "70", "icon": "VNALX0", "displayName": "$MERCH_TAG_NAILS", "basePrice": "#hdm_nails_price", "flavorText": "$MERCH_FLAVOR_NAILS" }
+//Nail Reloader
+newMerchantStoreItem => { "enabled": "#hdm_enable_nailreloader", "type": "item", "category": "$MERCH_CAT_NAILFIX", "item": "NailReloader", "icon": "VNALV0", "displayName": "$MERCH_TAG_NAILFIX", "basePrice": "#hdm_nailreloader_price", "flavorText": "$MERCH_FLAVOR_NAILFIX" }

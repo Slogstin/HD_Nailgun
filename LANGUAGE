@@ -1,0 +1,39 @@
+[en enc eng eni ena enz default]
+
+//Nailgun
+TAG_NAILGUN = "Virid Inc. Electro Magnetic Nailgun";
+PICKUP_NAILGUN = "You got the Nailgun! Make them your new wall art!";
+OB_NAILGUN = "%o got nailed by %k.";
+
+//Nails
+TAG_BENTNAIL = "Bent Steel Nail";
+PICKUP_BENTNAIL = "Picked up a steel nail, it's bent...";
+TAG_NAIL = "Steel Nail";
+PICKUP_NAIL = "Picked up a steel nail.";
+PICKUP_NAILBUNCH = "Picked up some steel nails.";
+TAG_NAILBOX = "Box of steel nails";
+PICKUP_NAILBOX = "Picked up a box of steel nails.";
+
+//Mags
+TAG_NAILMAG = "Nailgun Drum Magazine";
+PICKUP_NAILMAG = "Picked up a Nailgun drum magazine.";
+
+
+//Merchant Stores
+
+//Nailgun
+MERCH_CAT_NLG					= "VIRID Inc.";
+MERCH_TAG_NLG					= "VIRID Inc. Electro Magnetic Nailgun";
+MERCH_FLAVOR_NLG				= "Don't use it to build a house. Worst mistake of my life.";
+//Nailgun Mags
+MERCH_CAT_NLGMAG				= "VIRID Inc.";
+MERCH_TAG_NLGMAG				= "Nailgun Drum Magazine";
+MERCH_FLAVOR_NLGMAG				= "";
+//Nail Reloaders
+MERCH_CAT_NAILFIX				= "VIRID Inc.";
+MERCH_TAG_NAILFIX				= "Nail Repair Device";
+MERCH_FLAVOR_NAILFIX			= "Straightens your bent steel nails, so you don't have to support the ammo merchant! Screw that one!";
+//Nails
+MERCH_CAT_NAILS					= "VIRID Inc.";
+MERCH_TAG_NAILS					= "Steel Nails";
+MERCH_FLAVOR_NAILS				= "Perfect for turning monsters into modern art.";
