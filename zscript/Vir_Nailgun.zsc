@@ -126,9 +126,10 @@ class VirNailgun:HDWeapon{
 		LocalizeHelp();
 		return
 		LWPHELP_FIRESHOOT
-		..LWPHELP_RELOAD..StringTable.Localize("$SMGWH_FIRE")
-		..LWPHELP_USE.."+"..LWPHELP_RELOAD..StringTable.Localize("$SMGWH_UPRELOAD")
-		..LWPHELP_FIREMODE..StringTable.Localize("$SMGWH_FMODE")
+		..LWPHELP_ALTFIRE..StringTable.Localize("  Shoot faster \n")
+		..LWPHELP_RELOAD..StringTable.Localize("  Reload Mag \n")
+		..LWPHELP_ALTRELOAD..StringTable.Localize("  Reload Battery \n")
+		..LWPHELP_USE.."+"..LWPHELP_UNLOAD..StringTable.Localize("  Unload Battery \n")
 		..LWPHELP_MAGMANAGER
 		..LWPHELP_UNLOADUNLOAD
 		;
