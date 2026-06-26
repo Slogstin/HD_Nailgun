@@ -108,7 +108,7 @@ class VirNailgun:HDWeapon{
 			}else if(nextmagloaded<1){
 				sb.drawimage("VNLGW0",(-46,-3),sb.DI_SCREEN_CENTER_BOTTOM,alpha:nextmagloaded?0.6:1.,scale:(1,1));
 			}else sb.drawbar(
-				"CLP3NORM","CLP3GREY",
+				"VNLGNORM","VNLGGREY",
 				nextmagloaded,35,
 				(-46,-3),-1,
 				sb.SHADER_VERT,sb.DI_SCREEN_CENTER_BOTTOM

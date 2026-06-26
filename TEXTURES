@@ -175,3 +175,16 @@ Sprite "VNA2B0", 28, 21
 	Offset 13, 21
 	Patch "VNA2A0", 0, 0
 }
+
+Texture "VNLGNORM", 18, 18
+{
+	Patch "VNLGV0", 0, 0
+}
+
+Texture "VNLGGREY", 18, 18
+{
+	Patch "VNLGW0", 0, 0
+	{
+		Blend "#000000", 0.5
+	}
+}
