@@ -14,7 +14,7 @@ OptionValue "SpawnEnable"
     1,    "Yepp"
 }
 
-OptionMenu "SpaghettiMenu"
+OptionMenu "VirNailgun_Menu"
 {
 	Title "Virid Inc. Nailgun Options"
 	StaticText ""
