@@ -62,7 +62,7 @@ OptionMenu "SLG_Nailgun_Menu"
 	
 }
 
-OptionMenu "SLG_NailgunMag_Menu"
+OptionMenu "SLG_NailgunMags_Menu"
 {
 	Title "Virid Inc. Nailgun Magazine Options"
 	
